@@ -6,13 +6,13 @@
   },
   "metadata": {
     "description": "Autonomous Marketing plugins for Claude Code and Claude.",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   "plugins": [
     {
       "name": "autonomous-marketing",
       "source": "./",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "category": "marketing",
       "description": "Ad production skills (UGC ads, hook tests, translation packs, product demos, weekly batches, a media router) on the Autonomous Marketing MCP server."
     }

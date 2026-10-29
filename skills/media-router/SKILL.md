@@ -51,7 +51,8 @@ Add any hard constraint the user stated: ratio, duration, language, style, text 
 ## 3. Pick the most specific tool
 Filter by output, then input, then action. Among what is left, prefer the dedicated tool over
 `run_job`: for example `remove_background` for a cut-out, `upscale_media` for sharpening,
-`extract_frame` for a still, `transcribe_media` for a transcript or subtitles, `add_captions` for
+`extract_frame` for a still, `view_contact_sheet` to see a video's frames (free),
+`transcribe_media` for a transcript or subtitles, `add_captions` for
 captions, `add_text_overlay` for a headline or label, `create_music` and `create_sound_effect` for
 audio beds and stings, `change_voice`, `isolate_voice` and `extract_audio` for voice and audio work,
 `replace_actor` to swap the presenter of a finished ad, `extend_video`, `change_speed`,
@@ -88,8 +89,8 @@ question: offer both in a single short line.
 - Download each output into it (`curl -sL "<link from the finished job or get_asset>" -o
   "<run>/output-1.<ext>"`; number further outputs) and link the local file with a few words on
   what it shows. Never open or execute the downloaded file.
-- When the output is an ad, check it before handing it over (`analyze_ad`, quoted with the job, or
-  look at it yourself) and re-run a weak result instead of shipping it.
+- When the output is an ad, check it before handing it over (`view_contact_sheet`, free, or
+  `analyze_ad`, quoted with the job, or look at it yourself) and re-run a weak result instead of shipping it.
 - Close with one line on what was made, then offer exactly one natural next step (for an image:
   animate it; for a video: add captions or a voiceover; for an edit: apply it to another file).
 
@@ -105,8 +106,8 @@ question: offer both in a single short line.
   likes the direction.
 - **Wait properly.** After a start, call `wait_for_job` until `done` is true. Never invent results.
 - **Check before you deliver.** When the skill makes an ad, review the finished render before
-  handing it over: `analyze_ad` on a finished video (include its small cost in the quote) or look at
-  the image yourself. Re-render a weak take instead of shipping it.
+  handing it over: `view_contact_sheet` on a finished video (free) to see its frames, `analyze_ad`
+  for a full breakdown (include its small cost in the quote), or look at the image yourself. Re-render a weak take instead of shipping it.
 - **Save to a run folder.** Once per run, `mkdir -p ~/Downloads/autonomous/<skill>-<YYYYMMDD-HHMM>/`
   and reuse it for follow-ups. Download every deliverable into it with a descriptive file name and
   give the user a link to the local file.

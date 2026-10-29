@@ -30,8 +30,8 @@ description: Repurpose one video for every placement: resize to 9:16, 1:1, 16:9 
   likes the direction.
 - **Wait properly.** After a start, call `wait_for_job` until `done` is true. Never invent results.
 - **Check before you deliver.** When the skill makes an ad, review the finished render before
-  handing it over: `analyze_ad` on a finished video (include its small cost in the quote) or look at
-  the image yourself. Re-render a weak take instead of shipping it.
+  handing it over: `view_contact_sheet` on a finished video (free) to see its frames, `analyze_ad`
+  for a full breakdown (include its small cost in the quote), or look at the image yourself. Re-render a weak take instead of shipping it.
 - **Save to a run folder.** Once per run, `mkdir -p ~/Downloads/autonomous/<skill>-<YYYYMMDD-HHMM>/`
   and reuse it for follow-ups. Download every deliverable into it with a descriptive file name and
   give the user a link to the local file.

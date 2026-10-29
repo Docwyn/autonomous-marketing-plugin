@@ -1,6 +1,6 @@
 {
   "name": "autonomous-marketing",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Make performance ads with Autonomous Marketing from Claude: UGC talking-actor ads, product demos, hook tests, translation packs, static ads, competitor research, weekly ad batches and a media router for any single generate or edit request, every paid step quoted before it runs.",
   "author": { "name": "Mantinea", "url": "https://app.mantinea.com" },
   "homepage": "https://app.mantinea.com/docs#claude-plugin",
