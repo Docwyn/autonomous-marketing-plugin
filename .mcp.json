@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "autonomous": {
+      "type": "http",
+      "url": "https://app.mantinea.com/mcp"
+    }
+  }
+}

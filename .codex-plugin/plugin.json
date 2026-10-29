@@ -1,0 +1,30 @@
+{
+  "name": "autonomous-marketing",
+  "version": "1.1.0",
+  "description": "Make performance ads with Autonomous Marketing: UGC talking-actor ads, product demos, hook tests, translation packs, static ads, competitor research, weekly ad batches and a media router for any single generate or edit request, every paid step quoted before it runs.",
+  "author": { "name": "Mantinea", "url": "https://app.mantinea.com" },
+  "homepage": "https://app.mantinea.com/docs#claude-plugin",
+  "license": "Proprietary",
+  "keywords": ["ads", "ugc", "video", "marketing", "mcp", "talking actor", "creative testing"],
+  "mcpServers": "./.mcp.json",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Autonomous Marketing",
+    "shortDescription": "Make performance ads with AI",
+    "longDescription": "Autonomous Marketing by Mantinea makes performance ads: creator-style talking-actor videos, product demos with real screenshots, hook tests, static ads in every feed size, translation packs in up to 10 languages, competitor research from the public Ad Library and weekly ad batches. The bundled skills guide the brief, the script, the casting and the checks, and route any single generate or edit request to the right tool on the Autonomous Marketing MCP server. An Autonomous Marketing account is required. Generation spends workspace credits, and every paid step is quoted and confirmed before it runs.",
+    "developerName": "Mantinea",
+    "category": "Productivity",
+    "capabilities": [
+      "Make UGC and product demo video ads",
+      "Test hooks and translate ads",
+      "Research competitor ads",
+      "Generate and edit images, video and audio"
+    ],
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg",
+    "websiteURL": "https://app.mantinea.com",
+    "supportURL": "https://app.mantinea.com/docs",
+    "privacyPolicyURL": "https://app.mantinea.com/privacy",
+    "termsOfServiceURL": "https://app.mantinea.com/terms"
+  }
+}
